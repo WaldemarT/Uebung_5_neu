@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Uebung_5_neu</string>
+
+    <string name="access_token">pk.eyJ1IjoibWljaGFrMTk4OSIsImEiOiJja3ZsODI4ancwbTR0MnZ1Z2pxMGlwaGd3In0.fpnMuRZIQArKs5mXlhU6Pw</string>
+
+    <string name="latitude">Latitude</string>
+    <string name="longitude">Longitude</string>
+
+    <string name="open_map">Show on Map</string>
+
+    <string name="open_mapHKA">Show HKA</string>
+    <string name="open_mapHBF">Show HBF</string>
+    <string name="open_mapPub">Show Pub</string>
+</resources>

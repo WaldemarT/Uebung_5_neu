@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="8dp">
+
+        <EditText
+            android:id="@+id/inputLAT"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:hint="@string/latitude" />
+
+        <EditText
+            android:id="@+id/inputLON"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:hint="@string/longitude" />
+
+        <Button
+            android:id="@+id/openMapLatLng"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/open_map" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="8dp">
+
+        <Button
+            android:padding="8dp"
+            android:id="@+id/openMapHKA"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/open_mapHKA" />
+
+        <Button
+            android:padding="8dp"
+            android:id="@+id/openMapHBF"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/open_mapHBF" />
+
+        <Button
+            android:padding="8dp"
+            android:id="@+id/openMapPub"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/open_mapPub" />
+
+    </LinearLayout>
+</LinearLayout>
